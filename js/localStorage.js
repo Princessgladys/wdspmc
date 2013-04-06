@@ -13,8 +13,8 @@ function initLS(){
     var myUnits = [];
       myUnits[0] = "Ulla;car;255,255,0;0;0;";
       myUnits[1] = "cyklen;bike;192,192,192;0;0;";
-      myUnits[2] = "C3;car;66,87,155;0;0;";
-      myUnits[3] = "Fars;car;153,155,156;0;0;";
+      //myUnits[2] = "C3;car;66,87,155;0;0;";
+      //myUnits[3] = "Fars;car;153,155,156;0;0;";
       localStorage["units"] = JSON.stringify(myUnits);
     } else {
       alert("Sorry, your unit does not support local storage");
